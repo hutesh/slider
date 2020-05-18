@@ -1,0 +1,25 @@
+.for_slick_slider{
+    display: flex;
+}
+ img{
+  width:400px;
+  height:200px;
+  margin:50px;
+
+}
+.slick-center img{
+  transform: scaleY(1.4);
+}
+.slides {
+    position: relative;
+    .slick-prev, .slick-next {
+      position: absolute;
+      top: 50%;
+    }
+    .slick-prev {
+      left: 5%;
+    }
+    .slick-next {
+      right: 5%;
+    }
+  }
